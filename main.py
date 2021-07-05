@@ -13,7 +13,6 @@ parser.add_argument("-datasetName", default='MNIST', type=str)
 parser.add_argument("-storeClusters", default=True, type=bool)
 parser.add_argument("-savePicklePath", default='../reducedData/')
 parser.add_argument("-alpha", default=0.3, type=float) 
-parser.add_argument("-beta", default=0.3, type=float) 
 parser.add_argument("-KFarthest", default=1, type=int)
 args = parser.parse_args()
 
