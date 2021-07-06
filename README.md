@@ -6,32 +6,32 @@ The link to our accepted paper: [GHCIDR](https://github.com/SoniSiddharth/GHCIDR
 ## Requirements
 
 Please download the required modules from the requirements.txt
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 ## To create the reduced data 
 For creating reduced dataset change `<dataset>` to MNIST/FMNIST/CIFAR10.
 
 ### For RHC(baseline)
-`python main.py -variantName RHC -datasetName <dataset>`
+```python main.py -variantName RHC -datasetName <dataset>```
 
 ### For RHCKON 
-`python main.py -variantName RHCKON -datasetName <dataset> -KFarthest <K>`
+```python main.py -variantName RHCKON -datasetName <dataset> -KFarthest <K>```
 
 ### For KONCW
-`python main.py -variantName KONCW -datasetName <dataset> -alpha <alpha>`
+```python main.py -variantName KONCW -datasetName <dataset> -alpha <alpha>```
 
 ### For CWKC 
-`python main.py -variantName CWKC -datasetName <dataset> -alpha <alpha>`
+```python main.py -variantName CWKC -datasetName <dataset> -alpha <alpha>```
 
 ### For GHCIDR 
-`python main.py -variantName GHCIDR -datasetName <dataset> -alpha <alpha>`
+```python main.py -variantName GHCIDR -datasetName <dataset> -alpha <alpha>```
 
 The reduced dataset will be saved in "./datasetPickle" with the name `<datasetName>_<variantName>.pickle`
 
 ## To test the reduced data
 For testing the reduced dataset `<dataset>` with variant `<variant>` change `<modelname>` to vgg1/fcn.
 
-`python vgg1.py -datasetName <dataset> -variantName <variant> -epochs 100 -lr 0.01 -batchSize 64 -fullDataset No`
+```python vgg1.py -datasetName <dataset> -variantName <variant> -epochs 100 -lr 0.01 -batchSize 64 -fullDataset No```
 
 
 ## Team Members :standing_person:
