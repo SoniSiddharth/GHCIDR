@@ -1,7 +1,6 @@
 # GHCIDR :star2: 
 
-This code is for the ICML 2021 Workshop paper - "GHCIDR"
-The link to our accepted paper: [GHCIDR](https://github.com/SoniSiddharth/GHCIDR)
+This code is for the SubsetML ICML 2021 Workshop paper - "GHCIDR"
 
 ## Requirements
 
