@@ -1,6 +1,6 @@
 # GHCIDR :star2: 
 
-This code is for the SubsetML ICML 2021 Workshop paper - "GHCIDR"
+This code is for the SubsetML ICML 2021 Workshop paper - "Geometrical Homogeneous Clustering for Image Data Reduction"
 
 ## Requirements
 
